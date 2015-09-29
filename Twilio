@@ -4,7 +4,7 @@
 require_once('/home/briex/www/twilio/Services/Twilio.php');
 
 $AccountSid = "AC6918946550e1b92590e11cb36af09d40";
-$AuthToken = "b5bc5c27d31e7b764a0b0bb9d8edb174";
+$AuthToken = "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
 $client = new Services_Twilio($AccountSid, $AuthToken);
 $number = "+19172164313";
 $client->account->messages->sendMessage("929-229-7120",$number,"Hello from GABRIEL RIBEIRO");
