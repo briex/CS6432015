@@ -1,0 +1,79 @@
+@charset "UTF-8";
+/* CSS Document */
+div.ex1 {
+    width: auto;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+div.ex2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+}
+
+.img {
+	Display: block;
+	float: inherit; 
+	width: 70%;
+	margin-left: auto;
+    margin-right: auto; 
+	
+}
+.name_profile{
+	align-content: center;
+	text-align: center;
+	font-style: normal;
+	font-size:28px;
+	
+}
+.citation_profile{
+	align-content: center;
+	text-align: center;
+	font-style: italic;
+	font-size:15px;
+	
+}
+.show_grid {
+	align-self:center;
+	
+}
+.img_grid {
+	Display: block;
+	float:none;s 
+	max-width: 80px;
+	max-height: 80px;
+	margin-left: 8px;
+    margin-right: 8px;
+	margin-top: 8px;
+	margin-botton: 15px;
+	text-align:center; 
+	
+}
+p.apps{
+	margin-left: 20px;
+}
+.text_center {
+	text-align:center;
+}
+.back{
+	position: relative;
+    left: 0;
+    top: 1;
+    max-width: 100%;
+    max-height: auto;
+    opacity: 0.4;	
+}
+.appdock{
+    position: relative;
+	left: 0;
+	top: 1;
+    z-index: 2;	
+	max-width: 100%;
+	max-height: 100%;
+}
+.button{
+	position:relative;
+}
+
+
